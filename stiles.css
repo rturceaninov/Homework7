@@ -1,0 +1,24 @@
+html{
+  font-size: 100%;
+}
+.row div {
+    border: 5px solid white;
+    height: 2rem;
+}
+
+.row.blue div {
+    background-color: blue;
+}
+.row.orange div{
+      background-color: orange;
+ height: 6rem;
+}
+
+.row.green div{
+  background-color: green;
+}
+.row.red div{
+  background-color: red;
+}
+
+ 
