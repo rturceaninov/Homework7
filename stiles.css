@@ -2,16 +2,16 @@ html{
   font-size: 100%;
 }
 .row div {
-    border: 5px solid white;
-    height: 2rem;
-}
+    border: 0.3rem solid white;
+    height: 4rem;
+    }
 
 .row.blue div {
     background-color: blue;
 }
 .row.orange div{
       background-color: orange;
- height: 6rem;
+ height: 10rem;
 }
 
 .row.green div{
@@ -19,6 +19,24 @@ html{
 }
 .row.red div{
   background-color: red;
+  height: 6rem;
 }
+
+@media (min-width: 1024px) {
+  .row.blue div{
+    height: 6rem;
+  }
+  .row.orange div{
+    height: 15rem;
+  }
+  .row.green div{
+    height: 12rem;
+  }
+  .row.red div{
+    height: 6rem;
+  }
+ 
+
+ 
 
  
